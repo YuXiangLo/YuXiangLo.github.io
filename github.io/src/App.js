@@ -5,7 +5,7 @@ import './App.css'; // Make sure your CSS file is correctly referenced
 
 function App() {
   // Replace "https://example.com/your-cv" with your actual URL
-  const URL = "https://github.com/YuXiangLo/YuXiangLo.github.io";
+  const URL = "https://github.com/YuXiangLo/YuXiangLo.github.io/tree/main/CV_folder";
 
   return (
     <div className="App">
