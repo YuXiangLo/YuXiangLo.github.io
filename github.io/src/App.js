@@ -12,7 +12,7 @@ function App() {
       <header className="App-header">
         <FontAwesomeIcon icon={faHammer} className="App-logo" spin />
         <p>
-          Our website is currently under construction.
+          This website is currently under construction.
         </p>
         <p>
           Check back soon!
