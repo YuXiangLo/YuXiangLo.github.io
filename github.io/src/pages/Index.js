@@ -17,7 +17,7 @@ const Index = () => (
         </div>
       </header>
       <p> Welcome! </p>
-      <p>Feel free to read more <Link to="/about">about me</Link>, or you can check out my <Link to="/resume">resume</Link>, view <Link to="/stats">site statistics</Link>, or <Link to="/contact">contact</Link> me.</p>
+      <p>Feel free to read more <Link to="/about">about me</Link>, or you can check out my <Link to="/resume">resume</Link>, or <Link to="/contact">contact</Link> me.</p>
     </article>
   </Main>
 );
