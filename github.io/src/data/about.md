@@ -15,7 +15,7 @@ I am currently a CS junior at National Taiwan University, where my academic and 
 
 # Family Background
 
-I live in Taipei, Taiwan. My father is a police officer, and I never totally know what my mom's work is. It's kind of like a consultant, but not **really a consultant**. He's a bit portly, incredibly funny, and an exceptionally good brother. I miss him sometimes. Hope he's thriving in his endeavors there.
+I live in Taipei, Taiwan. My father is a police officer. As for my mom, I actually don't know what exaxtly my mom's work is. It's kind of like a consultant, but **not really a consultant**. I also have a brother working at Tainan, Taiwan now. He's a bit portly, incredibly funny, and an exceptionally good brother. I miss him sometimes. Hope he's thriving in his endeavors there.
 
 
 # Fun facts
