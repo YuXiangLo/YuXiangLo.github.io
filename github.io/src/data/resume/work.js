@@ -13,6 +13,18 @@
  */
 const work = [
   {
+    name: 'Taiwan AI Labs',
+    position: 'Music Team ML Intern',
+    startDate: '2024-04-08',
+    summary: `Actually I was new to this company, but currently I'm working on 
+    applying LoRA on a existing model, and I have to say that building music AI 
+    is a lot interesting compared to LLM, since I can actually **hear** it!`,
+    highlights: [
+      'Got familiar with CI/CD, kubernetes.',
+      'Applied LoRA on a pytorch based model, which involves modifying torchaudio\'s conformer',
+    ],
+  },
+  {
     name: 'Institute of Information Science, Academia Sinica',
     position: 'Research Assistant',
     url: 'https://www.iis.sinica.edu.tw/en/index.html',
