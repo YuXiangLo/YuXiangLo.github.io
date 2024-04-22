@@ -18,6 +18,9 @@ jobs:
       with:
         node-version: '21.4.0'
 
+    - name: Change Directory
+      run: cd github.io
+
     - name: Install dependencies
       run: npm install
 
