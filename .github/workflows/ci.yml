@@ -17,7 +17,10 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '21.4.0'
-
+    
+    - name: Check current 
+      run: pwd
+      
     - name: Change Directory
       run: cd github.io
 
