@@ -22,7 +22,10 @@ jobs:
       run: pwd
       
     - name: Change Directory
-      run: cd github.io
+      run: cd ./github.io
+
+    - name: Check current 
+      run: pwd
 
     - name: Install dependencies
       run: npm install
