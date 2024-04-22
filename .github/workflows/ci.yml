@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js version with NVM
       uses: actions/setup-node@v3
       with:
-        node-version: '21.4.0'
+        node-version: '18.12.0'
     
     - name: Check current 
       run: pwd
