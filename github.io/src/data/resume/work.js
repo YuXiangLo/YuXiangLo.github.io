@@ -16,13 +16,17 @@ const work = [
     name: 'Taiwan AI Labs',
     position: 'Music Team ML Intern',
     startDate: '2024-04-08',
-    summary: `Applied LoRA on an existing model. Modified torchaudio Conformer's
-    multiheadAttention. I have to say that building music AI is a lot interesting
-    compared to LLM, since I can actually **hear** it! Currently, I'm working on
-    developing an AI that can compose, based on the input text prompt.`,
+    summary: `During my internship, I was responsible for training a state-of-the-art 
+    text-to-speech model, *voicecraft*, in Traditional Chinese. This task was particularly 
+    challenging due to the complexities of Chinese pronunciation compared to English and 
+    other languages. I combined the work done by my colleagues with the new model, modifying setup 
+    to make them compatible to each, and build an maintainable environment for further developments. 
+    Overall, I gained experience in processing multimedia data and scheduling workflows from data 
+    cleaning to model training. Additionally, I refactored the code to improve readability.`,
     highlights: [
-      'Got familiar with CI/CD, kubernetes.',
-      'Applied LoRA on a pytorch based model, which involves modifying torchaudio\'s conformer',
+      'Familiarized with CI/CD and Kubernetes.',
+      'Collaborated effectively with colleagues.',
+      'Applied LoRA to a PyTorch-based model, involving modifications to torchaudio’s conformer.',
     ],
   },
   {
@@ -31,14 +35,14 @@ const work = [
     url: 'https://www.iis.sinica.edu.tw/en/index.html',
     startDate: '2023-07-03',
     endDate: '2024-04-01',
-    summary: `Researched how to apply LLM on the web service tuple-based demands 
-    extraction. During the internship, I learned how to collect data, preprocess 
-    and label data, and fine tune the data on pretrained model. We also try advanced
-    techniques like lora and design customized prompt to gain better results.`,
+    summary: `Researched the application of LLMs for extracting tuple-based demands 
+    from web services. During this internship, I learned data collection, preprocessing, 
+    labeling, and fine-tuning on pretrained models. We also explored advanced techniques 
+    like LoRA and designed customized prompts to achieve better results.`,
     highlights: [
-      'Learned the usage of huggingface model and huggingface model\'s interface.',
-      'Got familiar with the details of fine-tuning and processing data.',
-      'Applied the advanced technique like lora to the existing model.',
+      'Gained proficiency with Hugging Face models and their interfaces.',
+      'Mastered data fine-tuning and processing techniques.',
+      'Applied advanced techniques like LoRA to existing models.',
     ],
   },
   {
@@ -47,12 +51,13 @@ const work = [
     url: 'https://github.com/YuXiangLo/full-stack-web',
     startDate: '2023-05-01',
     endDate: '2023-06-01',
-    summary: `Collaborated with teammates on a full-stack projects (React + Node + MongoDB). 
-    I'm in charge of middleware and backend, building api for frontend and binding connection to database`,
+    summary: `Collaborated with teammates on a full-stack project (React + Node + MongoDB). 
+    I was responsible for middleware and backend development, building APIs for the frontend, 
+    and connecting to the database.`,
     highlights: [
-      'Built RESTful API to maintain a good style',
-      'Composed good enough algorithm to optimized the server\'s usage',
-      'Implemented asynchronous function for multitasking',
+      'Developed RESTful APIs to maintain a consistent style.',
+      'Created efficient algorithms to optimize server usage.',
+      'Implemented asynchronous functions for multitasking.',
     ],
   },
   {
@@ -61,11 +66,11 @@ const work = [
     url: 'https://apcs.camp',
     startDate: '2023-07-31',
     endDate: '2023-08-11',
-    summary: `APCS (Advanced Placement Computer Science) Camp aims to help high school
-    students with great interests in programming pass the exam APCS. It references AP 
-    in US. I'm instructing loop and array to high school students at that time.`,
+    summary: `APCS (Advanced Placement Computer Science) Camp helps high school students 
+    with a strong interest in programming to pass the APCS exam, similar to AP courses in the US. 
+    I taught loops and arrays to high school students.`,
     highlights: [
-      'Cooperated with mates, discussed courses contents and composed handouts.',
+      'Collaborated with peers to discuss course content and prepare handouts.',
     ],
   },
 ];
