@@ -14,19 +14,34 @@
 const work = [
   {
     name: 'Taiwan AI Labs',
-    position: 'Music Team ML Intern',
+    position: 'ASR Team ML Intern',
+    url: 'https://www.ailabs.tw/',
     startDate: '2024-04-08',
-    summary: `During my internship, I was responsible for training a state-of-the-art 
-    text-to-speech model, *voicecraft*, in Traditional Chinese. This task was particularly 
-    challenging due to the complexities of Chinese pronunciation compared to English and 
-    other languages. I combined the work done by my colleagues with the new model, modifying setup 
-    to make them compatible to each, and build an maintainable environment for further developments. 
-    Overall, I gained experience in processing multimedia data and scheduling workflows from data 
-    cleaning to model training. Additionally, I refactored the code to improve readability.`,
+    summary: `During my internship, I was fully in charge of training
+    a state-of-the-art text-to-speech model, VoiceCraft, in Traditional
+    Chinese. This task was particularly challenging due to the complexities
+    of Chinese pronunciation compared to English and other languages. I
+    integrated the work done by my colleagues (data, phonemizer, vall-e)
+    with the new model, modifying configurations to ensure compatibility
+    and building a maintainable environment for further developments using
+    a Miniconda environment.
+    <br>
+    <br>
+    Overall, I gained extensive experience in processing multimedia data and
+    scheduling workflows, from data cleaning to model training. Handling large
+    datasets required careful consideration of IO boundaries and identifying
+    bottlenecks to mitigate their impact effectively. Additionally, I refactored
+    the code to improve readability and maintainability.
+    <br>
+    <br>
+    This comprehensive experience not only strengthened my technical skills but
+    also enhanced my ability to manage and optimize complex workflows in AI model development.
+    <br>`,
     highlights: [
       'Familiarized with CI/CD and Kubernetes.',
-      'Collaborated effectively with colleagues.',
-      'Applied LoRA to a PyTorch-based model, involving modifications to torchaudio’s conformer.',
+      'Familiarized with torch and torchaudio.',
+      'Analyzed operating system bottlenecks when dealing with data.',
+      'Refactored code and designed scripts for data process, train, evaluation, and inference.',
     ],
   },
   {
