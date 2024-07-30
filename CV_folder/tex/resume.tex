@@ -1,0 +1,267 @@
+%-------------------------------------
+% LaTeX Resume for Software Engineers
+% Author : Leslie Cheng
+% License : MIT
+%-------------------------------------
+
+\documentclass[letterpaper,12pt]{article}[leftmargin=*]
+
+\usepackage[empty]{fullpage}
+\usepackage{enumitem}
+\usepackage{ifxetex}
+\ifxetex
+  \usepackage{fontspec}
+  \usepackage[xetex]{hyperref}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[pdftex]{hyperref}
+\fi
+\usepackage{fontawesome}
+\usepackage[sfdefault,light]{FiraSans}
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+%-------------------------------------------------- SETTINGS HERE --------------------------------------------------
+% Header settings
+\def \fullname {Yu Xiang Luo}
+\def \subtitle {}
+
+\def \linkedinicon {\faLinkedin}
+\def \linkedinlink {https://linkedin.com/in/yu-xiang-luo-116793269/}
+\def \linkedintext {/yu-xiang-luo}
+
+\def \phoneicon {\faPhone}
+\def \phonetext {+886 908-780-503}
+
+\def \emailicon {\faEnvelope}
+\def \emaillink {mailto:linus13514@gmail.com}
+\def \emailtext {linus13514@gmail.com}
+
+\def \githubicon {\faGithub}
+\def \githublink {https://github.com/YuXiangLo}
+\def \githubtext {/YuXiangLo}
+
+\def \websiteicon {\faGlobe}
+\def \websitelink {https://yuxianglo.github.io}
+\def \websitetext {yuxianglo.github.io}
+
+\def \headertype {\doublecol} % \singlecol or \doublecol
+
+% Misc settings
+\def \entryspacing {-0pt}
+
+\def \bulletstyle {\faAngleRight}
+
+% Define colours
+\definecolor{primary}{HTML}{000000}
+\definecolor{secondary}{HTML}{0D47A1}
+\definecolor{accent}{HTML}{263238}
+\definecolor{links}{HTML}{1565C0}
+
+%------------------------------------------------------------------------------------------------------------------- 
+
+% Defines to make listing easier
+\def \linkedin {\linkedinicon \hspace{3pt}\href{\linkedinlink}{\linkedintext}}
+\def \phone {\phoneicon \hspace{3pt}{ \phonetext}}
+\def \email {\emailicon \hspace{3pt}\href{\emaillink}{\emailtext}}
+\def \github {\githubicon \hspace{3pt}\href{\githublink}{\githubtext}}
+\def \website {\websiteicon \hspace{3pt}\href{\websitelink}{\websitetext}}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.1in}
+
+% Define the link colours
+\hypersetup{
+    colorlinks=true,
+    urlcolor=links,
+}
+
+% Set the margin alignment 
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-------------------------
+% Custom commands
+
+% Sections
+\renewcommand{\section}[2]{\vspace{5pt}
+  \colorbox{secondary}{\color{white}\raggedbottom\normalsize\textbf{{#1}{\hspace{7pt}#2}}}
+}
+
+% Entry start and end, for spacing
+\newcommand{\resumeEntryStart}{\begin{itemize}[leftmargin=2.5mm]}
+\newcommand{\resumeEntryEnd}{\end{itemize}\vspace{\entryspacing}}
+
+% Itemized list for the bullet points under an entry, if necessary
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=4.5mm]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+% Resume item
+\renewcommand{\labelitemii}{\bulletstyle}
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Entry with title, subheading, date(s), and location
+\newcommand{\resumeEntryTSDL}[4]{
+  \vspace{-1pt}\item[]
+    \begin{tabularx}{0.97\textwidth}{X@{\hspace{60pt}}r}
+      \textbf{\color{primary}#1} & {\firabook\color{accent}\small#2} \\
+      \textit{\color{accent}\small#3} & \textit{\color{accent}\small#4} \\
+    \end{tabularx}\vspace{-6pt}
+}
+
+% Entry with title and date(s)
+\newcommand{\resumeEntryTD}[2]{
+  \vspace{-1pt}\item[]
+    \begin{tabularx}{0.97\textwidth}{X@{\hspace{60pt}}r}
+      \textbf{\color{primary}#1} & {\firabook\color{accent}\small#2} \\
+    \end{tabularx}\vspace{-6pt}
+}
+
+% Entry for special (skills)
+\newcommand{\resumeEntryS}[2]{
+  \item[]\small{
+    \textbf{\color{primary}#1 }{ #2 \vspace{-6pt}}
+  }
+}
+
+% Double column header
+\newcommand{\doublecol}[6]{
+  \begin{tabularx}{\textwidth}{Xr}
+    {
+      \begin{tabular}[c]{l}
+        \fontsize{35}{45}\selectfont{\color{primary}{{\textbf{\fullname}}}} \\
+        {\textit{\subtitle}} % You could add a subtitle here
+      \end{tabular}
+    } & {
+      \begin{tabular}[c]{l@{\hspace{1.5em}}l}
+        {\small#4} & {\small#1} \\
+        {\small#5} & {\small#2} \\
+        {\small#6} & {\small#3}
+      \end{tabular}
+    }
+  \end{tabularx}
+}
+
+% Single column header
+\newcommand{\singlecol}[6]{
+  \begin{tabularx}{\textwidth}{Xr}
+    {
+      \begin{tabular}[b]{l}
+        \fontsize{35}{45}\selectfont{\color{primary}{{\textbf{\fullname}}}} \\
+        {\textit{\subtitle}} % You could add a subtitle here
+      \end{tabular}
+    } & {
+      \begin{tabular}[c]{l}
+        {\small#1} \\
+        {\small#2} \\
+        {\small#3} \\
+        {\small#4} \\
+        {\small#5} \\
+        {\small#6}
+      \end{tabular}
+    }
+  \end{tabularx}
+}
+
+\begin{document}
+%-------------------------------------------------- BEGIN HERE --------------------------------------------------
+
+%---------------------------------------------------- HEADER ----------------------------------------------------
+
+\headertype{\linkedin}{\github}{\website}{\phone}{\email}{} % Set the order of items here
+\vspace{-10pt} % Set a negative value to push the body up, and the opposite
+
+%-------------------------------------------------- EDUCATION --------------------------------------------------
+\section{\faGraduationCap}{Education}
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+      {National Taiwan University}{2021 -- Present}
+      {B.Sc. in Computer Science}{Taipei, Taiwan}
+  \resumeEntryEnd
+
+%-------------------------------------------------- EXPERIENCE --------------------------------------------------
+\section{\faPieChart}{Experience}
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+      {Research Assistant}{2023 -- 2024}
+      {\href{https://www.iis.sinica.edu.tw/}{Academia Sinica, Institute of Information Science}}
+      {Taipei, Taiwan}
+    \resumeItemListStart
+      \resumeItem {Conducted research on Named Entity Recognition (NER) using Language Models (LM).}
+      \resumeItem {Designed prompts and applied Low Rank Adaptation (LoRA) techniques to language models.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+  
+  \resumeEntryStart
+    \resumeEntryTSDL
+      {Machine Learning Engineer Intern}{2024 -- Present}
+      {\href{https://ailabs.tw/}{Taiwan AI Labs}}
+      {Taipei, Taiwan}
+    \resumeItemListStart
+      \resumeItem {Implemented scripts for data preprocessing in distributed systems (Kubernetes).}
+      \resumeItem {Trained a state-of-the-art Text-to-Speech (TTS) model using a Traditional Chinese dataset.}
+      \resumeItem {Led the integration of previous team work into a new model, managing dependencies.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+%-------------------------------------------------- PROJECTS --------------------------------------------------
+\section{\faFlask}{Projects}
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+      {Full Stack Website}{2022}
+      {\href{https://github.com/YuXiangLo/full-stack-web}{Github Repository}}{}
+    \resumeItemListStart
+      \resumeItem {Role: Backend Developer}
+      \resumeItem {Technologies: React.js, Node.js, Express.js, MongoDB, NVM}
+      \resumeItem {Description: Developed a web application with integrated frontend, backend, 
+      and database.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+      {Swift App (Prototype)}{2023}
+      {\href{https://github.com/YuXiangLo/swift}{Github Repository}}{}
+    \resumeItemListStart
+      \resumeItem {Technologies: Swift, Xcode SDK}
+      \resumeItem {Description: Developed an iOS app prototype focused on displaying texts and pictures, and playing simple games like tic-tac-toe. Gained experience in Swift and iOS development.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+      {BandWitch}{2024}
+      {\href{https://github.com/YuXiangLo/bandwitch}{Github Repository}}{}
+    \resumeItemListStart
+      \resumeItem {Role: Backend and System Developer}
+      \resumeItem {Technologies: Python, Bash, Network Routing}
+      \resumeItem {Description: Designed and implemented a system monitoring and network routing website, utilizing advanced kernel and system programming knowledge.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+  
+%-------------------------------------------------- SKILLS --------------------------------------------------
+\section{\faGears}{Skills}
+ \resumeEntryStart
+  \resumeEntryS{Programming Languages } {C/C++, Python}
+  \resumeEntryS{Web Development } {React.js, Node.js, Express.js, MongoDB, PHP, MySQL}
+  \resumeEntryS{DevOps } {Docker, Kubernetes, Bash, Git, Conda, NVM}
+  \resumeEntryS{Machine Learning } {Scikit-Learn, PyTorch}
+ \resumeEntryEnd
+
+\end{document}
+
