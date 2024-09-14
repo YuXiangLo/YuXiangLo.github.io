@@ -7,7 +7,25 @@ const data = [
     image: '/images/projects/ICWS_paper.png',
     date: '2024-04-02',
     desc:
-      'Applying LLM model on tuple-based web service extraction',
+      'Applied multiple ways to improve the works on extracting tuple-based service demands using genetic algorithm, LSTM,'
+    + ' and language model, and improved the training efficiency by applying LoRA on large language model like Llama.',
+  },
+  {
+    title: 'BandWitch',
+    image: '/images/projects/bandwitch.png',
+    link: 'https://github.com/YuXiangLo/bandwitch',
+    date: '2024-01-02',
+    desc: 'Developed a monitoring system enabling simultaneous use of multiple networks to scale total bandwidth and achieved'
+        + ' 80% scalability in network speed. Configured system-level iptables and routing using Bash scripts.',
+  },
+  {
+    title: 'Booking System',
+    image: '/images/projects/Booking_System.png',
+    link: 'https://github.com/YuXiangLo/full-stack-web',
+    date: '2022-12-01',
+    desc: 'Developed a full-stack web application with a responsive front-end and RESTful API back-end, implementing user'
+        + ' authentication, data management, and CRUD operations using MongoDB. Integrated an auto-recovery mechanism to'
+        + ' ensure seamless application restart, enhancing the application\'s reliability.',
   },
 ];
 

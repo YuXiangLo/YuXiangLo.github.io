@@ -14,7 +14,7 @@
 const work = [
   {
     name: 'Taiwan AI Labs',
-    position: 'ASR Team ML Intern',
+    position: 'ASR/Music Team ML Intern',
     url: 'https://www.ailabs.tw/',
     startDate: '2024-04-08',
     summary: `During my internship, I was fully in charge of training
@@ -25,6 +25,9 @@ const work = [
     with the new model, modifying configurations to ensure compatibility
     and building a maintainable environment for further developments using
     a Miniconda environment.
+    <br>
+    <br>
+    Currently, I'm working on training a lyrics-to-melody model using MelodyT5.
     <br>
     <br>
     Overall, I gained extensive experience in processing multimedia data and
@@ -38,7 +41,7 @@ const work = [
     also enhanced my ability to manage and optimize complex workflows in AI model development.
     <br>`,
     highlights: [
-      'Familiarized with CI/CD and Kubernetes.',
+      'Familiarized with Kubernetes.',
       'Familiarized with torch and torchaudio.',
       'Analyzed operating system bottlenecks when dealing with data.',
       'Refactored code and designed scripts for data process, train, evaluation, and inference.',
