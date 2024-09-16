@@ -4,7 +4,7 @@ const data = [
     title: 'SCC 2024 Paper',
     subtitle: 'Paper: Extracting Tuple-Based Service Demands with Large Language Models for Automated Service Composition',
     link: 'https://raw.githubusercontent.com/YuXiangLo/YuXiangLo.github.io/main/CV_folder/SCC_2024_Paper.pdf',
-    image: '/images/projects/ICWS_paper.png',
+    image: '/images/projects/SCC_2024_Paper.png',
     date: '2024-04-02',
     desc:
       'Applied multiple ways to improve the works on extracting tuple-based service demands using genetic algorithm, LSTM,'
