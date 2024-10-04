@@ -20,8 +20,12 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Yu Xiang. I am a Junior majoring Computer Science at <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>. {' '}
-        I&apos;m currently working as a <i>ML Engineer Intern</i> at <a href="https://ailabs.tw">Taiwan AI Labs</a>. {' '}
+        Hi, I&apos;m Yu Xiang. I am a Senior majoring Computer Science at {' '}
+        <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>. {' '}
+        I was a <i>ML Engineer Intern</i> at {' '}
+        <a href="https://ailabs.tw">Taiwan AI Labs</a> {' '}
+        and <i>Research Assistant</i> at {' '}
+        <a href="https://www.iis.sinica.edu.tw/en/index.html">Academia Sinica</a>.
       </p>
       <ul className="actions">
         <li>

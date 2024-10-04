@@ -5,7 +5,7 @@ const data = [
     subtitle: 'Paper: Extracting Tuple-Based Service Demands with Large Language Models for Automated Service Composition',
     link: 'https://raw.githubusercontent.com/YuXiangLo/YuXiangLo.github.io/main/CV_folder/SCC_2024_Paper.pdf',
     image: '/images/projects/SCC_2024_Paper.png',
-    date: '2024-04-02',
+    date: '2024-11-16',
     desc:
       'Applied multiple ways to improve the works on extracting tuple-based service demands using genetic algorithm, LSTM,'
     + ' and language model, and improved the training efficiency by applying LoRA on large language model like Llama.',
@@ -14,7 +14,7 @@ const data = [
     title: 'BandWitch',
     image: '/images/projects/bandwitch.png',
     link: 'https://github.com/YuXiangLo/bandwitch',
-    date: '2024-01-02',
+    date: '2024-06-05',
     desc: 'Developed a monitoring system enabling simultaneous use of multiple networks to scale total bandwidth and achieved'
         + ' 80% scalability in network speed. Configured system-level iptables and routing using Bash scripts.',
   },
