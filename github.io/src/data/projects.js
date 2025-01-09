@@ -3,7 +3,7 @@ const data = [
   {
     title: 'SCC 2024 Paper',
     subtitle: 'Paper: Extracting Tuple-Based Service Demands with Large Language Models for Automated Service Composition',
-    link: 'https://raw.githubusercontent.com/YuXiangLo/YuXiangLo.github.io/main/CV_folder/SCC_2024_Paper.pdf',
+    link: 'https://link.springer.com/chapter/10.1007/978-3-031-77000-5_1',
     image: '/images/projects/SCC_2024_Paper.png',
     date: '2024-11-16',
     desc:
