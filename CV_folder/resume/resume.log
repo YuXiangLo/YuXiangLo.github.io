@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.15)  16 SEP 2024 14:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.15)  9 JAN 2025 16:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -485,7 +485,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  14375 strings out of 474116
  249906 string characters out of 5743682
- 1963187 words of memory out of 5000000
+ 1968187 words of memory out of 5000000
  36524 multiletter control sequences out of 15000+600000
  599564 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -498,10 +498,10 @@ pe1/typoland/lato/Lato-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/typoland/lato/Lato-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy6.pfb>
-Output written on resume.pdf (1 page, 147218 bytes).
+Output written on resume.pdf (1 page, 148073 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
