@@ -17,12 +17,12 @@ const routes = [
     path: '/projects',
   },
   {
-    label: 'Contact',
-    path: '/contact',
-  },
-  {
     label: 'Game',
     path: '/game',
+  },
+  {
+    label: 'Contact',
+    path: '/contact',
   },
 ];
 

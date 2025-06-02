@@ -10,7 +10,8 @@ const Projects = () => (
     <article className="post" id="Games">
       <header>
         <div className="title">
-          <h2><Link to="/games">Game</Link></h2>
+          <h2><Link to="/game">Game</Link></h2>
+          <p><Link to="https://github.com/YuXiangLo/Bubblo">Source Code</Link></p>
         </div>
       </header>
       <h>

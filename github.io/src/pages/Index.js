@@ -12,6 +12,9 @@ const Index = () => (
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
           <p>
+            Last modified: 2025/6/2
+          </p>
+          <p>
             This site references code from <b><a href="https://github.com/mldangelo/personal-site?tab=readme-ov-file">here</a></b>
           </p>
         </div>

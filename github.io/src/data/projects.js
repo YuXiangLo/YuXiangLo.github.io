@@ -1,6 +1,30 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Let\'s Volley',
+    link: 'https://github.com/YuXiangLo/NTUWPA2024',
+    image: '/images/projects/LetsVolley.png',
+    date: '2025-05-28',
+    desc: 'Developed a full-stack web application using React, NestJS, and PostgreSQL.'
+    + ' Enabled users to create and join volleyball games, manage venues, and connect with other players through an integrated social platform.',
+  },
+  {
+    title: 'Interspeech 2025 paper',
+    link: 'https://arxiv.org/abs/2505.15773',
+    image: '/images/projects/Interspeech_2025_Paper.png',
+    date: '2025-05-21',
+    desc: 'Created the first large-scale Mandarin toxic speech dataset with prosodic labels. Multimodal models outperformed text-only baselines,'
+    + ' highlighting the need for speech-based toxicity detection and moderation.',
+  },
+  {
+    title: 'Bubblo',
+    link: 'https://github.com/YuXiangLo/Bubblo',
+    image: 'https://raw.githubusercontent.com/YuXiangLo/Bubblo/refs/heads/main/Assets/Sprites/canvas/cover.png',
+    date: '2025-01-09',
+    desc: 'Built a classic 2D platformer by a team of one artist and four engineers.'
+    + ' Designed and enforced a modular, low-coupling architecture using object-oriented programming principles.',
+  },
+  {
     title: 'SCC 2024 Paper',
     subtitle: 'Paper: Extracting Tuple-Based Service Demands with Large Language Models for Automated Service Composition',
     link: 'https://link.springer.com/chapter/10.1007/978-3-031-77000-5_1',
@@ -17,15 +41,6 @@ const data = [
     date: '2024-06-05',
     desc: 'Developed a monitoring system enabling simultaneous use of multiple networks to scale total bandwidth and achieved'
         + ' 80% scalability in network speed. Configured system-level iptables and routing using Bash scripts.',
-  },
-  {
-    title: 'Booking System',
-    image: '/images/projects/Booking_System.png',
-    link: 'https://github.com/YuXiangLo/full-stack-web',
-    date: '2022-12-01',
-    desc: 'Developed a full-stack web application with a responsive front-end and RESTful API back-end, implementing user'
-        + ' authentication, data management, and CRUD operations using MongoDB. Integrated an auto-recovery mechanism to'
-        + ' ensure seamless application restart, enhancing the application\'s reliability.',
   },
 ];
 

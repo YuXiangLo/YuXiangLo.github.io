@@ -17,21 +17,19 @@ const work = [
     position: 'ASR/Music Team ML Intern',
     url: 'https://www.ailabs.tw/',
     startDate: '2024-04-08',
-    summary: `During my internship, I was fully in charge of training
-    a state-of-the-art text-to-speech model, VoiceCraft, in Traditional
-    Chinese. I integrated the existing components (data, phonemizer, vall-e)
-    with the new model, modifying model to ensure compatibility and optimize
-    the model performance using pytorch DDP and numba.  I also trained a
-    lyrics-to-melody model using MelodyT5. In this project, I designed a
-    dataset that uses pinyin to represent the lyrics and ABC notation for
-    the melodies. This compact representation, combined with countdown
-    embeddings, has enabled promising performance in music generation.`,
+    endDate: '2025-03-31',
+    summary: `As an intern on the ASR/Music Team, I was responsible for training a state-of-the-art text-to-speech model,
+    VoiceCraft, in Traditional Chinese. I integrated existing components—including datasets, a phonemizer, and
+    VALL-E modules—into the new pipeline, modifying the model for compatibility and optimizing performance using
+    PyTorch DDP and Numba. In addition, I trained a lyrics-to-melody generation model based on MelodyT5. For this,
+    I designed a compact dataset format using pinyin for lyrics and ABC notation for melodies. This approach,
+    combined with countdown embeddings, achieved encouraging results in music generation tasks.`,
     highlights: [
       'Trained VoiceCraft, a transformer based text-to-speech (TTS) model enabling voice synthesis and editing.',
-      'Integrated a customized phonemizer from previous work and a GAN-based vocoder to enhance voice quality.',
-      'Enhanced VoiceCraft by integrating VALL-E components, boosting inference performance and quality.',
+      'Integrated customized phonemizer, VoiceCraft, and GAN-based vocoder to enhance voice quality.',
+      'Enhanced VoiceCraft with two-stage inference using VALL-E components.',
       'Developed a transformer based lyrics-to-melody model with custom data representation and embedding.',
-      'Implemented a countdown embeddings to control the sequence length.',
+      'Implemented countdown embeddings to align the number of melody notes with lyric words.',
     ],
   },
   {
@@ -40,8 +38,10 @@ const work = [
     url: 'https://www.iis.sinica.edu.tw/en/index.html',
     startDate: '2023-07-03',
     endDate: '2024-04-01',
-    summary: `Researched the application of LLMs for extracting tuple-based demands 
-    from web services. During this internship.`,
+    summary: `Researched the use of large language models (LLMs) for extracting tuple-based service demands from
+    web services. This role marked my first full-cycle involvement in LLM research, where I gained hands-on
+    experience in data cleaning, pipeline design, and model tuning. I contributed to every stage of the project,
+    from dataset construction to experimental evaluation and paper writing.`,
     highlights: [
       'Co-authored a paper on service demand extraction using large language models (LLMs), presented at SCC 2024.',
       'Increased input/output extraction accuracy from 56%/48% to 97%/98%, surpassing previous methods.',
@@ -61,6 +61,16 @@ const work = [
     I taught loops and arrays to high school students.`,
     highlights: [
       'Collaborated with peers to discuss course content and prepare handouts.',
+      'Teaching high school students of C++ programming.',
+    ],
+  },
+  {
+    name: 'APCS Camp',
+    position: 'Teaching Assistant',
+    url: 'https://apcs.camp',
+    startDate: '2022-07-31',
+    endDate: '2022-08-11',
+    highlights: [
       'Teaching high school students of C++ programming.',
     ],
   },

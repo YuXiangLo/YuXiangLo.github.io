@@ -1,6 +1,6 @@
 # Intro
 
-I am currently a senior in Computer Science at National Taiwan University, with a diverse range of skills spanning front-end and back-end development, as well as machine learning, including deep learning and a little bit reinforcement learning. From September 2023 to April 2024, I worked as a Research Assistant at the Institute of [Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/en/index.html), where I participated in research projects that enhanced my technical and analytical skills. I also completed an internship at [Taiwan AI Labs](https://ailabs.tw), focusing on music-based applications of machine learning, further advancing my expertise in this field.
+I am currently an undergraduate student in Computer Science at National Taiwan University, and I will soon begin my Master's program in the same field at the same institution. During my undergraduate studies, I explored a range of topics, including data mining, machine learning, deep learning, reinforcement learning, as well as web and game development. I have worked as a research assistant at the Institute of [Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/en/index.html), and as a machine learning engineering intern at [Taiwan AI Labs](https://ailabs.tw). Recently, I co-authored a paper titled ToxicTone as the first author; the paper was accepted for presentation at Interspeech 2025.
 
 # I like
 
