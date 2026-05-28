@@ -1,6 +1,6 @@
 # Intro
 
-I am currently an undergraduate student in Computer Science at National Taiwan University, and I will soon begin my Master's program in the same field at the same institution. During my undergraduate studies, I explored a range of topics, including data mining, machine learning, deep learning, reinforcement learning, as well as web and game development. I have worked as a research assistant at the Institute of [Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/en/index.html), and as a machine learning engineering intern at [Taiwan AI Labs](https://ailabs.tw). Recently, I co-authored a paper titled ToxicTone as the first author; the paper was accepted for presentation at Interspeech 2025.
+I am currently a master student in Computer Science at National Taiwan University. During my studies, I explored a range of topics, including data mining, machine learning, deep learning, financial engineering, as well as web and game development. I have worked as a research assistant at the Institute of [Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/en/index.html), a machine learning engineering intern at [Taiwan AI Labs](https://ailabs.tw), and a quantitative trading intern at [Yuanta Securities](https://www.yuanta.com.tw/eyuanta). 
 
 # I like
 

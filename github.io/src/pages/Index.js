@@ -5,14 +5,14 @@ import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={"Yu Xiang Luo's personal website. Junior at National Taiwan University."}
+    description={"Yu Xiang Luo's personal website. Master at National Taiwan University."}
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
           <p>
-            Last modified: 2025/6/2
+            Last modified: 2026/5/28
           </p>
           <p>
             This site references code from <b><a href="https://github.com/mldangelo/personal-site?tab=readme-ov-file">here</a></b>
