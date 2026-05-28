@@ -13,12 +13,30 @@
  */
 const work = [
   {
+    name: 'Yuanta Securities',
+    position: 'Quantitative Trading Intern',
+    url: 'https://www.yuanta.com.tw/eyuanta/',
+    startDate: '2025-09-03',
+    endDate: '2026-01-31',
+    summary: `Coming from a Computer Science background, this internship served as an invaluable first step 
+              into quantitative finance. I am deeply grateful for the opportunity to learn directly from seasoned
+              mentors, traders, and fellow interns. Immersing myself in the daily conversations on the trading
+              floor provided me with a profound understanding of the edges, mechanisms, and strategies driving
+              the Taiwan stock market. Eager to give back to the desk, I leveraged my technical foundation to
+              build engineering and modeling solutions that directly supported the firm's trading operations.`,
+    highlights: [
+      'Modeled the IX0208 index to forecast 00940 ETF constituent changes, achieving an 80-90% reconstruction accuracy.',
+      'Optimized a competitive bid loan model by stratifying market data and apply tailored strategies.',
+      'Developed a Robotic Process Automation (RPA) application to better streamline web scraping.',
+    ],
+  },
+  {
     name: 'Taiwan AI Labs',
     position: 'ASR/Music Team ML Intern',
     url: 'https://www.ailabs.tw/',
     startDate: '2024-04-08',
     endDate: '2025-03-31',
-    summary: `As an intern on the ASR/Music Team, I was responsible for training a state-of-the-art text-to-speech model,
+    summary: `As an intern on the ASR/Music Team, I was responsible for training a text-to-speech model,
     VoiceCraft, in Traditional Chinese. I integrated existing components—including datasets, a phonemizer, and
     VALL-E modules—into the new pipeline, modifying the model for compatibility and optimizing performance using
     PyTorch DDP and Numba. In addition, I trained a lyrics-to-melody generation model based on MelodyT5. For this,
@@ -53,7 +71,6 @@ const work = [
   {
     name: 'APCS Camp',
     position: 'Instructor',
-    url: 'https://apcs.camp',
     startDate: '2023-07-31',
     endDate: '2023-08-11',
     summary: `APCS (Advanced Placement Computer Science) Camp helps high school students 
@@ -67,7 +84,6 @@ const work = [
   {
     name: 'APCS Camp',
     position: 'Teaching Assistant',
-    url: 'https://apcs.camp',
     startDate: '2022-07-31',
     endDate: '2022-08-11',
     highlights: [
