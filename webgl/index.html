@@ -108,8 +108,8 @@
         // TemplateData/style.css upscales the canvas with nearest-neighbor
         // (image-rendering: pixelated) to fill the exact 16:10 iframe.
         config.matchWebGLToCanvasSize = false;
-        canvas.width = 1920;
-        canvas.height = 1200;
+        canvas.width = 2560;
+        canvas.height = 1600;
       }
 
       loadingBar.style.display = "block";
@@ -122,7 +122,16 @@
               }).then((unityInstance) => {
                 loadingBar.style.display = "none";
                 fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
+                  var fsElement = document.fullscreenElement
+                    || document.webkitFullscreenElement;
+                  if (fsElement) {
+                    (document.exitFullscreen
+                      || document.webkitExitFullscreen).call(document);
+                  } else if (container.requestFullscreen) {
+                    container.requestFullscreen();
+                  } else if (container.webkitRequestFullscreen) {
+                    container.webkitRequestFullscreen();
+                  }
                 };
               }).catch((message) => {
                 alert(message);
