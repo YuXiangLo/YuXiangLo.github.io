@@ -101,9 +101,15 @@
 
 
       } else {
-        // Desktop style: let the canvas fill its container (sizing handled by
-        // TemplateData/style.css) so the embed scales to the iframe and the
-        // fullscreen button stays reachable at the bottom.
+        // Desktop: pixel-perfect fixed-resolution rendering for the pixel-art
+        // game. Lock the WebGL backing store to an exact integer 16:10 grid
+        // (2x the game's 960x600 native resolution) so the render target never
+        // tracks the fractional DOM size (which caused sub-pixel glitching).
+        // TemplateData/style.css upscales the canvas with nearest-neighbor
+        // (image-rendering: pixelated) to fill the exact 16:10 iframe.
+        config.matchWebGLToCanvasSize = false;
+        canvas.width = 1920;
+        canvas.height = 1200;
       }
 
       loadingBar.style.display = "block";
