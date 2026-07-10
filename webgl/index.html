@@ -101,10 +101,9 @@
 
 
       } else {
-        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-
-        canvas.style.width = "960px";
-        canvas.style.height = "540px";
+        // Desktop style: let the canvas fill its container (sizing handled by
+        // TemplateData/style.css) so the embed scales to the iframe and the
+        // fullscreen button stays reachable at the bottom.
       }
 
       loadingBar.style.display = "block";
