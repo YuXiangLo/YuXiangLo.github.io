@@ -33,14 +33,21 @@ const Projects = () => (
         <li> Press &apos;F&apos; to fire</li>
         <li> Hold &apos;F&apos; to charge</li>
       </ul>
-      <iframe
-        title="Bubblo Demo"
-        src="/webgl/index.html"
-        width="100%"
-        height="540px"
-        style={{ border: 'none' }}
-        allowFullScreen
-      />
+      <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 10' }}>
+        <iframe
+          title="Bubblo Demo"
+          src="/webgl/index.html"
+          style={{
+            position: 'absolute',
+            inset: 0,
+            width: '100%',
+            height: '100%',
+            border: 'none',
+          }}
+          allow="fullscreen; autoplay"
+          allowFullScreen
+        />
+      </div>
     </article>
   </Main>
 );
